@@ -9,11 +9,11 @@
 
 # implementation details
 
-### First of all i added 4 fingers same as the one in the helper code. while the creation of every finger i added __glPushmatrix()__ at the start of the code and __glPopmatrix()__ so the translations and rotations are applied only to that finger __only__.
+ First i added 4 fingers same as the one in the helper code. while the creation of every finger i added __glPushmatrix()__ at the start of the code and __glPopmatrix()__ so the translations and rotations are applied only to that finger __only__.
 
 <p>&nbsp;</p>
 
-## Movement Limitations:
+# Movement Limitations:
 * As the normal range of motion for shoulder flexion is 180 degrees ,and the normal range of motion for shoulder extension is between 45 and 60 degrees.
 
 * The  range of flexion movements of the elbow joint  is 135°–150° , and the extension movement is 0° as the elbow won't rotate downwards.  
